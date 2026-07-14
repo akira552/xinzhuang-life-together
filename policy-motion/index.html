@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>新莊里｜五件生活事動畫總覽</title>
+    <style>
+      :root { color: #244750; background: #f7fbf8; font-family: "PingFang TC", "Noto Sans TC", system-ui, sans-serif; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: radial-gradient(circle at 88% 0, #ffe6a1 0 10rem, transparent 10.2rem), radial-gradient(circle at 0 100%, #aae7d8 0 13rem, transparent 13.2rem), #f7fbf8; }
+      .site-index-header { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 76px; padding: 0 max(20px, calc((100vw - 1180px) / 2)); border-bottom: 1px solid rgba(36, 71, 80, .12); background: rgba(255,253,248,.93); backdrop-filter: blur(14px); }
+      .site-index-header a { color: inherit; text-decoration: none; }
+      .site-brand { display: flex; align-items: center; gap: 11px; font-size: 17px; font-weight: 900; }
+      .site-brand i { width: 29px; height: 29px; border: 2px solid #244750; border-radius: 50%; background: conic-gradient(#ffb43d,#f26a4f,#37b99b,#3978de,#ffb43d); box-shadow: inset 0 0 0 6px #fffdf8; }
+      .site-index-header nav { display: flex; gap: 18px; color: #45636a; font-size: 14px; font-weight: 800; }
+      .site-index-header nav a:hover { color: #159a83; }
+      main { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 64px 0 84px; }
+      .eyebrow { color: #159a83; font-size: 14px; letter-spacing: .12em; font-weight: 800; }
+      h1 { margin: 12px 0 10px; font-size: clamp(34px, 5vw, 60px); line-height: 1.1; letter-spacing: -.06em; }
+      .lead { max-width: 720px; margin: 0; color: #5c777b; font-size: 18px; line-height: 1.65; font-weight: 600; }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 42px; }
+      .card { overflow: hidden; border: 1px solid rgba(36, 71, 80, .11); border-radius: 24px; background: rgba(255,255,255,.88); box-shadow: 0 16px 42px rgba(36, 71, 80, .10); }
+      .card.tour { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(250px, 390px) 1fr; align-items: center; gap: 34px; padding: 22px; background: linear-gradient(135deg, #fffaf0, #e8f8f1); }
+      .card.tour video { max-height: 640px; margin: auto; border-radius: 18px; aspect-ratio: 9 / 16; box-shadow: 0 18px 44px rgba(36, 71, 80, .16); }
+      .card.tour .copy { padding: 24px 18px; }
+      video { display: block; width: 100%; background: #dcece7; aspect-ratio: 16 / 9; }
+      .copy { padding: 18px 20px 21px; }
+      .index { color: #ee7351; font-size: 13px; font-weight: 900; letter-spacing: .1em; }
+      h2 { margin: 7px 0 5px; font-size: 25px; letter-spacing: -.04em; }
+      p { margin: 0; color: #5c777b; line-height: 1.55; font-size: 15px; font-weight: 600; }
+      @media (max-width: 720px) { .site-index-header { min-height: 62px; padding: 0 14px; } .site-index-header nav { gap: 11px; font-size: 12px; } .site-brand { font-size: 14px; } .site-brand i { width: 25px; height: 25px; } main { width: min(100% - 28px, 680px); padding-top: 38px; } .grid { grid-template-columns: 1fr; gap: 18px; margin-top: 30px; } .card.tour { grid-column: auto; grid-template-columns: 1fr; gap: 8px; padding: 14px; } .card.tour video { max-height: 580px; } .card.tour .copy { padding: 14px 6px 6px; } .lead { font-size: 16px; } }
+    </style>
+  </head>
+  <body>
+    <header class="site-index-header">
+      <a class="site-brand" href="../"><i aria-hidden="true"></i><span>新莊里生活一起顧</span></a>
+      <nav><a href="../#commitments">五件生活事</a><a href="../">回居民網站</a></nav>
+    </header>
+    <main>
+      <div class="eyebrow">XINZHUANG VILLAGE · POLICY MOTION</div>
+      <h1>五件生活事，一次看完。</h1>
+      <p class="lead">這是居民版政策示意動畫：每支都先說明生活上要處理什麼，再提出我們可以先做的三步。工程、預算與服務容量仍由主管機關核定，不把未完成事項說成已完成。</p>
+      <section class="grid">
+        <article class="card tour"><video controls playsinline preload="metadata" src="./xinzhuang-site-tour-30s-vertical.mp4"></video><div class="copy"><div class="index">網站導覽｜30秒直式宣傳版</div><h2>新莊里生活一起顧</h2><p>從五件生活事、附近資源到建設進度，30秒看懂這個網站想和大家一起處理什麼。適合手機直式觀看與社群宣傳。</p></div></article>
+        <article class="card"><video controls preload="metadata" src="./traffic-motion-20s.mp4?v=5"></video><div class="copy"><div class="index">01｜交通工務</div><h2>走路、等車、過馬路，要更安心。</h2><p>從常走路線、現場會勘到進度公開。</p></div></article>
+        <article class="card"><video controls preload="metadata" src="./welfare-motion-20s.mp4"></video><div class="copy"><div class="index">02｜社福高齡</div><h2>需要幫忙時，要知道去哪裡找人。</h2><p>先把服務入口、據點與轉介方式說清楚。</p></div></article>
+        <article class="card"><video controls preload="metadata" src="./commerce-motion-20s.mp4"></video><div class="copy"><div class="index">03｜商業採買</div><h2>日常採買，在附近能不能完成？</h2><p>先把生活需求與服務缺口找出來。</p></div></article>
+        <article class="card"><video controls preload="metadata" src="./environment-motion-20s.mp4"></video><div class="copy"><div class="index">04｜生活環境</div><h2>環境問題，不能只靠下一次反映。</h2><p>有位置、有時段、有回訪，才知道有沒有改善。</p></div></article>
+        <article class="card"><video controls preload="metadata" src="./public-space-motion-20s.mp4"></video><div class="copy"><div class="index">05｜公共空間</div><h2>有地方，不等於真的好用。</h2><p>把可達、停留、安全與分齡使用一起看。</p></div></article>
+      </section>
+    </main>
+  </body>
+</html>
